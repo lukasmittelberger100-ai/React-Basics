@@ -1,0 +1,24 @@
+.card {
+  flex: 1 1 200px;
+  max-width: 240px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--bg);
+}
+
+.card h1 {
+  margin: 16px 12px 8px;
+  font-size: 24px;
+}
+
+.card img {
+  display: block;
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card p {
+  padding: 12px 14px 16px;
+}
