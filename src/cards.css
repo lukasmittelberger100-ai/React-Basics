@@ -1,4 +1,6 @@
 .card {
+  display: flex;
+  flex-direction: column;
   flex: 1 1 200px;
   max-width: 240px;
   overflow: hidden;
@@ -20,7 +22,13 @@
 }
 
 .card p {
-  padding: 12px 14px 16px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  max-height: 70px;
+  line-height: 18px;
+  overflow: hidden;
+  padding: 6px 14px;
 }
 
 .card-actions {
@@ -28,6 +36,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 8px;
+  margin-top: auto;
   padding: 0 14px 16px;
 }
 
