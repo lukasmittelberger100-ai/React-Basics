@@ -18,7 +18,9 @@ export default function Cards({ title, text }: Props) {
         <button className="like-btn" onClick={() => setLikes(prev => prev + 1)}>
           👍 {likes}
         </button>
-        <a className="card-link" href="./second_page.html">Second Page →</a>
+        <a className="card-link" href="src\second_page.html">
+          Zum Artikel →
+        </a>
       </div>
     </div>
   )
